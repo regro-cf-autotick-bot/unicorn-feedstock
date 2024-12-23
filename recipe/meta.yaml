@@ -61,6 +61,7 @@ outputs:
         - {{ pin_subpackage("unicorn", exact=True) }}
         - pip
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage("unicorn", exact=True) }}
