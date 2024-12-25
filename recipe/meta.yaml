@@ -66,7 +66,7 @@ outputs:
         - python
         - {{ pin_subpackage("unicorn", exact=True) }}
         # uses distutils
-        - setuptools  # [py>313]
+        - setuptools
     test:
       imports:
         - unicorn
